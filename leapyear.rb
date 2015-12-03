@@ -6,7 +6,7 @@ e = gets.chomp.to_i
 
 
 for yr in s .. e
-	if yr%4 == 0 && (yr%400 == 0 && yr%100 == 0)
+	if yr%4 == 0 && yr%400 == 0
 		puts yr
 	elsif yr%4 == 0 && yr%100 != 0
 		puts yr
